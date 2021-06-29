@@ -587,5 +587,5 @@ if __name__ == "__main__":
     # 等待所有候选的git repo clone完毕......
 
     # 3. 所有repo clone下来之后，对这些repo逐文件用线性匹配算法统计，将统计结果按调用频率从大到小排好序, 保存到f"./statistics/{key_word}_statistics.txt"文件中
-    dir_statistics = analyze_dir(f"D:\\analyse2\\{key_word}_cover", f"{key_word}", None)
+    dir_statistics = analyze_dir(f"./{key_word}_cover", f"{key_word}", None)
 
